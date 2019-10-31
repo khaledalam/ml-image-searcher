@@ -1,4 +1,4 @@
-# instagrammer
+# ml-image-searcher
 
 [![license](https://img.shields.io/github/license/khaledalam/ml-image-searcher.svg)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dt/ml-image-searcher.svg)](https://www.npmjs.com/package/ml-image-searcher)
@@ -10,11 +10,9 @@ NodeJS module NPM package that helps to search for images using instagram hashta
 Instagram has gone to great lengths to prevent scraping and other unauthorized access to their public content. This module is dependant on the markup the public-facing instagram.com. Should that change this module might also stop working as intended. You should take this into consideration when deciding whether this module will work for you.
 
 ## Motivation
-
-In example below it shows how searching using:<br>
-
-- human hashtags + ML: 20(cats) / 20(total result) -> [100% correct]<br>
-- human hashtags : 12(cats) / 20(total result) -> [60% correct]
+In example below output shows how searching using:<br>
+- Human hashtags + ML: `20(cats) / 20(total result)` -> [`100%` correct]<br>
+- Human hashtags : `12(cats) / 20(total result)` -> [`60%` correct]
 
 ## Installation
 
@@ -34,7 +32,8 @@ IG.getImages('cat').then((ret) => console.log(ret.filteredData))
 ```
 
 #### Output (format: `htmlAll`) response:
-Human hashtags + ML    |    Human hashtags only
+- Left: Human hashtags + ML
+- Right: Human hashtags only
 <img src="./result-ml-image-searcher.png" width="850">
 
 #### Output (format: `filteredData`) response:
