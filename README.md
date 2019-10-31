@@ -34,8 +34,8 @@ IG.getImages('cat').then((ret) => console.log(ret.filteredData))
 ```
 
 #### Output (format: `htmlAll`) response:
-
-<img src="./result-ml-image-searcher.png" width="400">
+Human hashtags + ML    |    Human hashtags only
+<img src="./result-ml-image-searcher.png" width="850">
 
 #### Output (format: `filteredData`) response:
 
