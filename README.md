@@ -2,10 +2,19 @@
 
 [![license](https://img.shields.io/github/license/khaledalam/ml-image-searcher.svg)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dt/ml-image-searcher.svg)](https://www.npmjs.com/package/ml-image-searcher)
+![npm](https://img.shields.io/npm/dm/ml-image-searcher)
+![npm](https://img.shields.io/npm/v/ml-image-searcher)
+![npm bundle size](https://img.shields.io/bundlephobia/min/ml-image-searcher)
 
 NodeJS module NPM package that helps to search for images using instagram hashtags and machine learning object recognition technology.
 
-## Disclamer
+## Disclaimer 1
+
+This package was created in 2019 and was depending on `?__a=1`, at that time instagram allows the usage of `/?__a=1&is_video=true` but now instagram no longer allows this and also not allows fetch profiles info without auth session.<br />Maybe in the future I will implement a scrapping-based solution for this package.
+
+<img src="./ai_profile_pic_ig.jpg">
+
+## Disclaimer 2
 
 Instagram has gone to great lengths to prevent scraping and other unauthorized access to their public content. This module is dependant on the markup the public-facing instagram.com. Should that change this module might also stop working as intended. You should take this into consideration when deciding whether this module will work for you.
 
